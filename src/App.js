@@ -10,13 +10,16 @@ import Channel from './components/Channel';
 import Loader from './components/Loader';
 
 firebase.initializeApp({
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_AUTH_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+  apiKey: "AIzaSyAdivMuf5S2ld0PhtQ2_W9o3jMY9bPJsqs",
+  authDomain: "react-chatapp-249d9.firebaseapp.com",
+  databaseURL: "https://react-chatapp-249d9-default-rtdb.firebaseio.com/",
+  projectId: "react-chatapp-249d9",
+  storageBucket: "react-chatapp-249d9.appspot.com",
+  messagingSenderId: "334294515901",
+  appId: "1:334294515901:web:4983202968a279b5b337d4"
+
 });
+
 
 const MoonIcon = props => (
   <svg
